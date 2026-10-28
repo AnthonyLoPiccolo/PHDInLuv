@@ -5,15 +5,16 @@
 .question-box {
   /* Dimensions */
   width: 500px;
-  height: 200px;
+  height: 80px;
   
+  align-items: center;
   /* Visuals */
   border: 2px solid #010101;
   border-radius: 0px; /* Rounds the corners */
   
   /* Spacing */
   padding: 5px; /* Space inside the box, around the text */
-  margin: 5px;  /* Space outside the box, pushing other elements away */
+  margin: auto;  /* Space outside the box, pushing other elements away */
   
   box-sizing: border-box; 
 }
