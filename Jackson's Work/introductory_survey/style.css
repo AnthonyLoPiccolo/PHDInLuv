@@ -2,8 +2,36 @@
 @import url("variables.css");
 @import url("reset.css");
 
-.button-box {
-    width: 400px;
+.question-box {
+  /* Dimensions */
+  width: 500px;
+  height: 200px;
+  
+  /* Visuals */
+  border: 2px solid #010101;
+  border-radius: 0px; /* Rounds the corners */
+  
+  /* Spacing */
+  padding: 5px; /* Space inside the box, around the text */
+  margin: 5px;  /* Space outside the box, pushing other elements away */
+  
+  box-sizing: border-box; 
+}
+
+.answer-box {
+  /* Dimensions */
+  width: 500px;
+  height: 200px;
+  
+  /* Visuals */
+  border: 2px solid #010101;
+  border-radius: 0px; /* Rounds the corners */
+  
+  /* Spacing */
+  padding: 5px; /* Space inside the box, around the text */
+  margin: 5px;  /* Space outside the box, pushing other elements away */
+  
+  box-sizing: border-box; 
 }
 
 img {
