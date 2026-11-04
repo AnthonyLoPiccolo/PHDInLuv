@@ -24,6 +24,7 @@
 }
 
 .answer-box {
+  display: inline-block;
   height: 65px;
   width: 150px;
   background-color: grey;
@@ -31,9 +32,11 @@
   text-align: center;
   padding: 8px;
   margin: 20px;
+  vertical-align: middle;
 }
 
 .answer-box:hover {
+  display: inline-block;
   height: 65px;
   width: 150px;
   background-color: black;
@@ -41,6 +44,7 @@
   text-align: center;
   padding: 8px;
   margin: 20px;
+  vertical-align: middle;
 }
 
 .hypertext {
