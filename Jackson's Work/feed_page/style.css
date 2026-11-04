@@ -36,6 +36,14 @@
   box-sizing: border-box; 
 }
 
+.profile-box {
+  display: block;
+  height: 65px;
+  width: 90%;
+  text-align: center;
+  margin-top: 20px;
+}
+
 .left-wrapper {
   float: left;
   width: 40%;
