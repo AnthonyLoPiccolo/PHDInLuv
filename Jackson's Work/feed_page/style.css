@@ -35,6 +35,7 @@
   margin: auto;  /* Space outside the box, pushing other elements away */
   
   box-sizing: border-box; 
+  float: left;
 }
 
 .profile-box {
@@ -82,8 +83,3 @@
     height: 200px;
 }
 
-
-img {
-    width: 350px;
-    height: 200px;
-}
