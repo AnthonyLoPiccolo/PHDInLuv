@@ -19,31 +19,36 @@
   box-sizing: border-box; 
 }
 
-.wrapper {
-    width: 500px;
+.left-wrapper {
+  float: left;
+  width: 40%;
+}
+
+
+.right-wrapper {
+  float: right;
+  width: 40%;
 }
 
 .answer-box {
   display: inline-block;
   height: 65px;
-  width: 150px;
+  width: 100%;
   background-color: grey;
   color: black;
   text-align: center;
-  padding: 8px;
-  margin: 20px;
+  margin-top: 20px;
   vertical-align: middle;
 }
 
 .answer-box:hover {
   display: inline-block;
   height: 65px;
-  width: 150px;
+  width: 100%;
   background-color: black;
   color: grey;
   text-align: center;
-  padding: 8px;
-  margin: 20px;
+  margin-top: 20px;
   vertical-align: middle;
 }
 
