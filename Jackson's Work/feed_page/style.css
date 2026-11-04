@@ -1,0 +1,81 @@
+@charset "UTF-8";
+@import url("variables.css");
+@import url("reset.css");
+
+.question-box {
+  /* Dimensions */
+  width: 100%;
+  height: 80px;
+  
+  align-items: center;
+  /* Visuals */
+  border: 2px solid #010101;
+  border-radius: 0px; /* Rounds the corners */
+  
+  /* Spacing */
+  padding: 5px; /* Space inside the box, around the text */
+  margin: auto;  /* Space outside the box, pushing other elements away */
+  
+  box-sizing: border-box; 
+}
+
+.profile-name-box {
+  /* Dimensions */
+  width: 80%;
+  height: 80px;
+  
+  align-items: center;
+  /* Visuals */
+  border: 2px solid #010101;
+  border-radius: 0px; /* Rounds the corners */
+  
+  /* Spacing */
+  padding: 5px; /* Space inside the box, around the text */
+  margin: auto;  /* Space outside the box, pushing other elements away */
+  
+  box-sizing: border-box; 
+}
+
+.left-wrapper {
+  float: left;
+  width: 40%;
+}
+
+
+.right-wrapper {
+  float: right;
+  width: 40%;
+}
+
+.answer-box {
+  display: inline-block;
+  height: 65px;
+  width: 100%;
+  background-color: grey;
+  color: black;
+  text-align: center;
+  margin-top: 20px;
+  vertical-align: middle;
+}
+
+.answer-box:hover {
+  display: inline-block;
+  height: 65px;
+  width: 100%;
+  background-color: black;
+  color: grey;
+  text-align: center;
+  margin-top: 20px;
+  vertical-align: middle;
+}
+
+.hypertext {
+    width: 350px;
+    height: 200px;
+}
+
+
+img {
+    width: 350px;
+    height: 200px;
+}
