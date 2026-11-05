@@ -1,0 +1,51 @@
+@charset "UTF-8";
+@import url("variables.css");
+@import url("reset.css");
+
+.question-box {
+  /* Dimensions */
+  width: 100%;
+  height: 80px;
+  
+  align-items: center;
+  /* Visuals */
+  border: 2px solid #010101;
+  border-radius: 0px; /* Rounds the corners */
+  
+  /* Spacing */
+  padding: 5px; /* Space inside the box, around the text */
+  margin: auto;  /* Space outside the box, pushing other elements away */
+  
+  box-sizing: border-box; 
+}
+
+.answer-box {
+  display: block;
+  height: 65px;
+  background-color: grey;
+  color: black;
+  text-align: center;
+  padding: 8px;
+  margin: 20px;
+}
+
+.answer-box:hover {
+  display: block;
+  height: 80px;
+  background-color: black;
+  color: grey;
+  text-align: center;
+  padding: 14px 28px;
+  margin: auto;
+}
+
+.hypertext {
+    width: 350px;
+    height: 200px;
+}
+
+
+img {
+    width: 350px;
+    height: 200px;
+}
